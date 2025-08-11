@@ -1,0 +1,9 @@
+//The provided code stub reads an integer,n, from STDIN. For all non-negative integers i<n, print i*i.//
+n = int(input())
+if n<0:
+    print("negative integer")
+elif n>0:
+    for i in range(0,n):
+        print(i*i)
+else:
+    print("invalid input")
